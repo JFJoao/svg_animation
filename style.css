@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #ffead4;
+    overflow-x: hidden;
+}
+
+.container-header{
+    width: 100vw;
+}
+
+.lett-header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    fill: transparent;
+    width: 50%;
+    margin-top: 5%;
+    animation: lett-preenchimento 1.75s ease-in-out forwards 4.2s;
+}
+
+.lett-header path {
+    stroke-width: 2px;
+    stroke: #be253f;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lett-tracado 4s ease-in-out forwards 1.15s;
+}
+
+#praia {
+    animation: inicia-pagina 4s ease-in forwards;
+}
